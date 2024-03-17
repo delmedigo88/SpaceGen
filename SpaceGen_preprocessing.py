@@ -1,5 +1,6 @@
 import pandas as pd
 import numpy as np
+from sklearn.preprocessing import OneHotEncoder
 
 class SpaceGen_preprocessing:
   def __init__(self, content = "helloworld", size= 10, past_capacity = 5 , future_capacity = 5):
